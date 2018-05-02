@@ -1,0 +1,7 @@
+# */15 * * * * root php /var/www/html/app/console mautic:segments:update
+# */15 * * * * root php /var/www/html/app/console mautic:campaigns:rebuild
+# */15 * * * * root php /var/www/html/app/console mautic:campaigns:trigger
+# */15 * * * * root php /var/www/html/app/console mautic:email:fetch
+# */15 * * * * root php /var/www/html/app/console mautic:social:monitoring
+# */15 * * * * root php /var/www/html/app/console mautic:messages:send
+# */15 * * * * root php /var/www/html/app/console mautic:emails:send
